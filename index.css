@@ -1,13 +1,30 @@
-#main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#body {
+  background-color: aliceblue;
 }
 
-#github-container {
-  display: flex;
+#main {  
+
+  text-align: center;
 }
 
-ul {
-  list-style: none;
+
+#renderMovies{
+  
+  padding: 20px;  
+  width:400px;
+  height: 400px;
+  
+  float: right;
+  margin-right: 50px;
+
+}
+
+#movielist {
+  padding: 20;
+  float: center;
+}
+
+#tickets{
+  padding: 20px;
+  float: left;
 }
